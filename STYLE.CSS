@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+
+A:LINK		{
+	text-decoration : none;
+}
+
+A:VISITED	{
+	text-decoration : none;
+}
+
+A:HOVER		{
+	color : rgb(255, 255, 255);
+	text-decoration : none;
+}
+
+A:ACTIVE  	{
+	text-decoration : none;
+	font-color : rgb(221, 221, 221);
+}
+
+B.MY		{
+	font-family : Verdana, Arial, Helvetica;
+	color : rgb(255, 255, 255);
+	font-size : 8pt;
+	font-weight : normal;
+}
+
+SPAN		{
+	font-family : Verdana, Arial, Helvetica;
+	color : rgb(221, 221, 221);
+	font-size : 8pt;
+	font-weight : bold;
+}
+
+SPAN.BLINKY {
+	text-decoration : blink;
+}
+
+.PARA1 {
+	margin-top : -28px;
+	margin-left : 42px;
+	font-family : verdana;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 15px;
+	text-align : left;
+	color : rgb(225, 225, 225);
+}
+
+.PARA2 {
+	margin-top : 2px;
+	margin-left : 2px;
+	font-family : Verdana;
+	font-weight : bold;
+	font-size : 20px;
+	line-height : 20px;
+	text-align : left;
+	color : rgb(0, 96, 160);
+}
+
+.SMALL		{
+	font : 8pt;
+}
+
+.SMALL_UPPERCASE{
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight : bold;
+	text-transform : uppercase;
+}
+
+.UPPER 		{
+	text-transform : uppercase;
+}
+
+BODY		{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	scrollbar-face-color : rgb(0, 64, 112);
+	scrollbar-highlight-color : rgb(170, 170, 170);
+	scrollbar-shadow-color : rgb(153, 153, 153);
+	scrollbar-arrow-color : rgb(255, 255, 0);
+	scrollbar-base-color : rgb(0, 64, 112);
+	scrollbar-3d-light-color : rgb(81, 84, 104);
+	scrollbar-dark-shadow-color : rgb(2, 64, 112);
+	}
