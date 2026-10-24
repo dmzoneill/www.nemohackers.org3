@@ -1,157 +1,46 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
-<HTML>
-<HEAD>
-<TITLE>[ nemo hackers ]</TITLE>
-<?php require('meta.php'); ?>
-<?php require('header.php'); ?>
+<?php
 
-
-<!--start the individual page-->
-
-
-
-
-
-<TABLE BGCOLOR="#000000" BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="750"><TR>
-
-<TD BGCOLOR="#000000" VALIGN="top" WIDTH="160">
-<!-- corners -->
-
-<TABLE BGCOLOR="#024070" BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="160">
-
-<TR BGCOLOR=""><TD>
-<TABLE BGCOLOR="#024070" BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="160">
-<TR>
-<TD WIDTH=3><IMG SRC="./images/tleftblue1agif.gif" BORDER=0></TD>
-<TD BGCOLOR="#024070" WIDTH="154">
-<CENTER><CENTER><b>Menu</b></CENTER></CENTER></TD>
-<TD WIDTH=3><IMG SRC="./images/trightblue1agif.gif" BORDER=0></TD>
-</TR>
-</TABLE>
-</TR>
-
-
-
-<TR BGCOLOR="#1c1f22">
-
-<TD WIDTH="160" BGCOLOR="#1c1f22" CELLPADDING="2">
-
-<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
-
-<TR CLASS="small">
-
-<TD BGCOLOR="#1C1F22" HEIGHT="426" VALIGN="top">
-
-<CENTER>
-
-    <?php require('menu.php'); ?>
-
-</CENTER>
-
-
-
-
-
-
-
-
-
-
-
-</TD></TR></TABLE>
-<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="*">
-<TR>
-<TD WIDTH=3><IMG SRC="./images/bleftdgrey1agif.gif" BORDER=0></TD>
-<TD WIDTH="754" BGCOLOR="1C1F22">
-<TD WIDTH=3><IMG SRC="./images/brightdgrey1agif.gif" BORDER=0></TD>
-</TR>
-</TABLE>
-
-</TD></TR></TABLE></TD>
-
-<!------------eend left column--------------->
-
-<!------------rright column--------------->
-
-<TD BGCOLOR="#000000" VALIGN="top">
-
-<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="100%">
-
-<TR VALIGN="top"><TD BGCOLOR="#000000">
-
-
-<!------------------11111111111111111111111111------------------>
-
-<!------------------11111111111111111111111111------------------>
-
-<TABLE BGCOLOR="#000000" BORDER="0" CELLPADDING="0" CELLSPACING="1" WIDTH="100%">
-
-<TR BGCOLOR="#000000">
-
-<TD BGCOLOR="#000000">
-
-<TABLE BGCOLOR="#024070" BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="*">
-<TR>
-<TD WIDTH=3><IMG SRC="./images/tleftblue1agif.gif" BORDER=0></TD>
-<TD BGCOLOR="#024070" WIDTH="754">
-<CENTER><B>About Nemohackers</B></CENTER></TD>
-<TD WIDTH=3><IMG SRC="./images/trightblue1agif.gif" BORDER=0></TD>
-</TR>
-</TABLE>
-
-</TD>
-
-</TR>
-
-<TR BGCOLOR=#24252f>
-
-<TD>
-
-<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 WIDTH="100%">
-
-<TR CLASS=small><TD BGCOLOR="#1C1F22">
-
-
-
+require_once __DIR__ . '/page_frame.php';
+renderPageTop('About Nemohackers');
+?>
 
 <center>
 
 <H5>
     <A HREF="#1">1</A>  &nbsp; | &nbsp;
-	<A HREF="#A">A</A>  &nbsp; | &nbsp;
-	<A HREF="#B">B</A>  &nbsp; | &nbsp;
-	<A HREF="#C">C</A>  &nbsp; | &nbsp;
-	<A HREF="#D">D</A>  &nbsp; | &nbsp;
-	<A HREF="#E">E</A>  &nbsp; | &nbsp;
-	<A HREF="#F">F</A>  &nbsp; | &nbsp;
-	<A HREF="#G">G</A>  &nbsp; | &nbsp;
-	<A HREF="#H">H</A>  &nbsp; | &nbsp;
-	<A HREF="#I">I</A>  &nbsp; | &nbsp;
-	<A HREF="#J">J</A>  &nbsp; | &nbsp;
-	<A HREF="#K">K</A>  &nbsp; | &nbsp;
-	<A HREF="#L">L</A>  &nbsp; | &nbsp;
-	<A HREF="#M">M</A>  &nbsp; | &nbsp;
-	<A HREF="#N">N</A>  &nbsp; | &nbsp;
-	<A HREF="#O">O</A>  &nbsp; | &nbsp;
-	<A HREF="#P">P</A>
+    <A HREF="#A">A</A>  &nbsp; | &nbsp;
+    <A HREF="#B">B</A>  &nbsp; | &nbsp;
+    <A HREF="#C">C</A>  &nbsp; | &nbsp;
+    <A HREF="#D">D</A>  &nbsp; | &nbsp;
+    <A HREF="#E">E</A>  &nbsp; | &nbsp;
+    <A HREF="#F">F</A>  &nbsp; | &nbsp;
+    <A HREF="#G">G</A>  &nbsp; | &nbsp;
+    <A HREF="#H">H</A>  &nbsp; | &nbsp;
+    <A HREF="#I">I</A>  &nbsp; | &nbsp;
+    <A HREF="#J">J</A>  &nbsp; | &nbsp;
+    <A HREF="#K">K</A>  &nbsp; | &nbsp;
+    <A HREF="#L">L</A>  &nbsp; | &nbsp;
+    <A HREF="#M">M</A>  &nbsp; | &nbsp;
+    <A HREF="#N">N</A>  &nbsp; | &nbsp;
+    <A HREF="#O">O</A>  &nbsp; | &nbsp;
+    <A HREF="#P">P</A>
 <br>
-	<A HREF="#Q">Q</A>  &nbsp; | &nbsp;
-	<A HREF="#R">R</A>  &nbsp; | &nbsp;
-	<A HREF="#S">S</A>  &nbsp; | &nbsp;
-	<A HREF="#T">T</A>  &nbsp; | &nbsp;
-	<A HREF="#U">U</A>  &nbsp; | &nbsp;
-	<A HREF="#V">V</A>  &nbsp; | &nbsp;
-	<A HREF="#W">W</A>  &nbsp; | &nbsp;
-	<A HREF="#X">X</A>  &nbsp; | &nbsp;
-	<A HREF="#Y">Y</A>  &nbsp; | &nbsp;
-	<A HREF="#Z">Z</A>
+    <A HREF="#Q">Q</A>  &nbsp; | &nbsp;
+    <A HREF="#R">R</A>  &nbsp; | &nbsp;
+    <A HREF="#S">S</A>  &nbsp; | &nbsp;
+    <A HREF="#T">T</A>  &nbsp; | &nbsp;
+    <A HREF="#U">U</A>  &nbsp; | &nbsp;
+    <A HREF="#V">V</A>  &nbsp; | &nbsp;
+    <A HREF="#W">W</A>  &nbsp; | &nbsp;
+    <A HREF="#X">X</A>  &nbsp; | &nbsp;
+    <A HREF="#Y">Y</A>  &nbsp; | &nbsp;
+    <A HREF="#Z">Z</A>
 </H5>
 
 </center>
 
 </td></tr></table>
 <br>
-
 
 <TABLE WIDTH="80%">
 <TR>
@@ -160,8 +49,6 @@
 
 <TD>
  <FONT face="Verdana, Helvetica" color="white" size="2">
-
-
 
  <h4><A NAME="1">1</a></h4>
 <br>
@@ -174,7 +61,7 @@ About :The Hacking magazine
 
 <A HREF="http://www.hideaway.net">Active Matrix's Hideaway</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :Internet secuirty news
+About :Internet security news
 </font>
 <br>
 <br>
@@ -196,7 +83,7 @@ About :This site is mostly underconstruction
 <br>
 <A HREF="http://www.access.org.uk">Access All Areas</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :Computer secuirty and hackers Confrence this is a pretty good site
+About :Computer security and hackers Confrence this is a pretty good site
 </font>
 <br>
 <br>
@@ -207,7 +94,8 @@ About :Computer secuirty and hackers Confrence this is a pretty good site
 <br>
 <A HREF="http://www.cultdeadcow.com">Cult of the Dead Cow [cDc]</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :This site contains adultery, murder, morbid violence, bad grammar, deviant sexual conduct in violent contexts, or the consumption of alcohol and illegal drugs lol check it out for your self
+About :This site contains adultery, murder, morbid violence, bad grammar, deviant sexual conduct in
+violent contexts, or the consumption of alcohol and illegal drugs lol check it out for your self
 </font>
 <br>
 <br>
@@ -231,7 +119,8 @@ About :CAU GHQ????
 <br>
 <A HREF="http://www.elitehackers.com">Elitehackers</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :Highly recommended a must visit, Nemohackers recomends that you check out the fourms and all other parts of the site
+About :Highly recommended a must visit, Nemohackers recommends that you check out the fourms and all
+other parts of the site
 </font>
 <br>
 <br>
@@ -239,7 +128,7 @@ About :Highly recommended a must visit, Nemohackers recomends that you check out
 <br>
 <A HREF="http://www.insecure.org/">Fyodor's Playhouse</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About : Highly recommended got A hell of alot of stuff
+About : Highly recommended got A hell of a lot of stuff
 </font>
 <br>
 <br>
@@ -324,7 +213,7 @@ About :Highly recommended with a large selection of informative texts  .
 
 <A HREF="http://www.l0pht.com">L0pht Heavy Industries</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :A secuirty and exploite site very handy
+About :A security and exploite site very handy
 </font>
 <br>
 <br>
@@ -347,7 +236,7 @@ About :er..Under construstion but a few pages are up
 <br>
 <A HREF="http://www.pyrotecnics.com">Pyrotecnics.com</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :This is a pretty good site with a few good apps and some good infomation
+About :This is a pretty good site with a few good apps and some good information
 </font>
 <br>
 <br>
@@ -375,7 +264,7 @@ About : A great site for exploits Highly recommended
 <br>
 <A HREF="http://www.technotronic.com">Technotronic</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About : A pretty good site has got  uptodate ftp listings
+About : A pretty good site has got  up-to-date ftp listings
 </font>
 <br>
 <br>
@@ -409,81 +298,6 @@ About :HACKERS.gr???
 <br>
 <br>
 
+<?php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-</TD>
-
-</TR>
-</TABLE>
-
-
-
-
-
-    <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="*">
-<TR>
-<TD WIDTH=3><IMG SRC="./images/bleftdgrey1agif.gif" BORDER=0></TD>
-<TD WIDTH="754" BGCOLOR="1C1F22">
-<TD WIDTH=3><IMG SRC="./images/brightdgrey1agif.gif" BORDER=0></TD>
-</TR>
-</TABLE>
-
-</TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE>
-
-</TD></TR></TABLE></TD></TR></TABLE>
-
-<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=2>
-
-<TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
-
-    <?php require('footer.php'); ?>
-
-<BR>
-
+renderPageBottom();

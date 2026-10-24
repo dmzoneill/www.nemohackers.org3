@@ -1,0 +1,5 @@
+# Vendored third-party: phpBB 1.x forum (phpbb.com, GPL-2.0).
+phpBB/
+
+# Vendored third-party: NewsPro Perl news script (NPLIB/NPCONFIG/NEWSPRO.CGI, Amphibian/newspro).
+CGI-BIN/
